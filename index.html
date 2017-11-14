@@ -1,1 +1,174 @@
-Hi there
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Andy Mathys | Full Stack Developer</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes" >
+  </head>
+
+    <body>
+      <header id="header">
+        <a href="/" class="logo">AndyMathys.com</a>
+
+        <ul class="main-menu">
+          <li><a class="contactLink" href="#section-contact">Contact</a></li>
+          <li><a class="portFoliolink" href="#">Portfolio</a></li>
+          <li><a class="homeLink" href="/">Home</a></li>
+        </ul>
+      </header>
+
+      <div class="importantSection" id="section-can-do">
+
+        <div class="polaroid">
+          <div class="picture">
+          </div>
+        </div>
+
+        <div class="inner">
+          <h2>Full Stack Webdevelopment</h2>
+          <h3>Remote full stack webdeveloper at affordable rates</h3>
+          <p>I am <strong>Andy Mathys</strong>, the owner of <strong>Mindloop BVBA</strong>. I am a <strong>full stack</strong> webdeveloper. This means I master every skill that your webproject might require including : 
+
+          <ul>
+            <li><strong>Backend</strong> development (Node.js, PHP, MySQL, Solr, MVC, ...) </li>
+            <li><strong>Frontend</strong> development (html5, css, javascript, react, angular, responsive design, media queries)</li>
+            <li>Deployment of your webapp to the right <strong>servers</strong> (linux, docker, vagrant, puppet)</li>
+            <li>Understand what your business or project needs (throw me in a skype-meeting and I'll come out with a <strong>technical document</strong>)</li>
+            <li><strong>Automated testing</strong> (Selenium, Mocha, PHPUnit, ...)
+          </ul>
+          </p>
+
+          <p>
+          Spending most of my time in low cost countries allows me to provide my customers with the same service as before but at a <strong>lower cost</strong> (starting at <strong>350 euro per day</strong> for projects with a minimum duration of 10 workdays)
+          </p>
+
+
+        </div><!--end div inner-->
+
+
+      </div>
+
+
+      <a href="#" class="portFoliolink jumpdown" id="downicon1"><i>Down</i></a>
+
+      <div class="importantSection" id="section-portfolio">
+        <div class="inner">
+          <h2>What I did for others</h2>
+
+          <p>My list of satisfied customers includes established companies such as <strong>Microsoft Netherlands</strong>, <strong>Telenet</strong>, <strong>JustEat</strong>, <strong>Hulkshare.com</strong> but also smaller family companies and startups such as <strong>Casa Di Biella</strong>, <strong>MyVisualBrief.com</strong> and many others.</p>
+
+        </div>
+
+        <!--div class="macbook">
+          <div class="screen">
+          screen
+          </div>
+          </div!-->
+
+
+          <div class="portfolio clear" id="port1">
+            <div>Microsoft BoomerangQuiz
+
+              <p>
+              Online quiz for <strong>Microsoft Netherlands</strong>, main purpose was to educate their resellers about OEM licensing.
+              </p>
+              <p>
+              Developed in cooperation with <strong>Scooptic</strong>.
+              </p>
+            </div>
+            <img src="images/projects/microsoft_boomerang.jpg" />
+          </div>
+
+          <div class="portfolio" id="port2">
+            <div>
+              Telenet Eshop
+              <p>
+              Online shop for <strong>Telenet</strong>, one of Belgian's biggest ISPs.
+              </p>
+
+            </div>
+            <img src="images/projects/telenet_eshop.jpg" />
+          </div>
+          <div class="portfolio" id="port3">
+            <div>
+              Casa Di Biella
+              <p> 
+              Development of custom admin interface and frontend for <strong>Casa Di Biella</strong>.
+              </p> 
+
+              <p>
+              Created in cooperation with design studio <strong>Imagine Studio</strong>.
+              </p> 
+            </div>
+            <img src="images/projects/casa.jpg" />
+          </div>
+          <div class="portfolio" id="port4">
+            <div>
+              MyVisualBrief
+              <p> 
+              Development of web applicaition and Chrome extension for <strong>MyVisualBrief</strong>, a tool that aids the communication between designers and their clients.
+              </p> 
+
+            </div>
+            <img src="images/projects/mvb.jpg" />
+          </div>
+
+
+          <div class="portfolio" id="port5">
+            <div>
+              HulkShare
+              <p> 
+              I joined the <strong>HulkShare</strong> team as a remote php developer. I helped them build a new mobile beta version of their site that handles millions of hits per day.
+              </p> 
+
+            </div>
+            <img src="images/projects/hulkshare.jpg" />
+          </div>
+
+          <div class="portfolio" id="port6">
+            <div>
+              VakantieVakantie.be
+              <p>
+              I developed the site for the upcomming Travel magazine called <strong>VakantieVakantie</strong>.</p>
+              </p> 
+
+            </div>
+
+            <img src="images/projects/vakantie.jpg" />
+          </div>
+
+
+
+
+          </div><!--end of importantSection!-->
+
+          <div class="importantSection" id="section-contact">
+            <div class="inner">
+              <h2>Contact Me</h2>
+              <p>
+              Would you like to work together sometime? Or just in need for for some human contact? Drop me a line on <a href="mailto:contact@andymathys.com">contact@andymathys.com</a> or fill out the form below.
+              </p>
+
+              <form action="/contact.php" id="contactform">
+                <input name="email" class="wide" type="email" placeholder="Your email address" value='' />
+                <textarea class="wide" id="message" placeholder="Your message" name="message"></textarea>
+                <input type="submit" id="submitcontact" value="submit"/>
+              </form>
+            </div>
+          </div><!--end of section!-->
+
+          </div><!--end div content-->
+
+          <footer id="footer">
+            &copy; 2007 AndyMathys.com
+          </footer><!--end of footer-->
+
+
+    </body>
+</html>
